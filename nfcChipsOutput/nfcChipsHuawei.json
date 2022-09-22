@@ -1,153 +1,347 @@
 [
      {
-          "name": "HONOR 10",
+          "marketingName": "HONOR 10",
+          "modelNames": [
+               "COL-AL00",
+               "COL-AL10",
+               "COL-L29",
+               "COL-TL10"
+          ],
           "x0": 0.07851239669421484,
           "y0": 0.011210762331838564,
           "x1": 0.5165289256198347,
           "y1": 0.09865470852017937
      },
      {
-          "name": "HONOR 20",
+          "marketingName": "HONOR 20",
+          "modelNames": [
+               "YAL-AL00",
+               "YAL-L21",
+               "YAL-TL00"
+          ],
           "x0": 0.265625,
           "y0": 0.014084507042253521,
           "x1": 0.7135416666666667,
           "y1": 0.15023474178403756
      },
      {
-          "name": "HONOR 9",
+          "marketingName": "HONOR 9",
+          "modelNames": [
+               "STF-AL00",
+               "STF-AL10",
+               "STF-L09",
+               "STF-L09S",
+               "STF-TL10"
+          ],
           "x0": 0.0,
           "y0": 0.0,
           "x1": 0.4530386740331491,
           "y1": 0.08735632183908046
      },
      {
-          "name": "HONOR Magic 2",
+          "marketingName": "HONOR Magic 2",
+          "modelNames": [
+               "TNY-AL00",
+               "TNY-TL00"
+          ],
           "x0": 0.0,
           "y0": 0.0,
           "x1": 0.6772486772486772,
           "y1": 0.10304449648711944
      },
      {
-          "name": "HONOR Note10",
+          "marketingName": "HONOR Note10",
+          "modelNames": [
+               "RVL-AL09"
+          ],
           "x0": 0.17803030303030298,
           "y0": 0.0044943820224719105,
           "x1": 0.7992424242424243,
           "y1": 0.056179775280898875
      },
      {
-          "name": "HONOR Play",
+          "marketingName": "HONOR Play",
+          "modelNames": [
+               "COR-AL00",
+               "COR-AL10",
+               "COR-L29",
+               "COR-TL10"
+          ],
           "x0": 0.042857142857142816,
           "y0": 0.020179372197309416,
           "x1": 0.6761904761904762,
           "y1": 0.12556053811659193
      },
      {
-          "name": "HONOR V10",
+          "marketingName": "HONOR V10",
+          "modelNames": [
+               "BKL-AL00",
+               "BKL-AL20",
+               "BKL-TL10"
+          ],
           "x0": 0.07851239669421484,
           "y0": 0.011210762331838564,
           "x1": 0.5165289256198347,
           "y1": 0.09865470852017937
      },
      {
-          "name": "HONOR V20",
+          "marketingName": "HONOR V20",
+          "modelNames": [
+               "PCT-TL10"
+          ],
           "x0": 0.3121693121693122,
           "y0": 0.07621247113163972,
           "x1": 0.5873015873015873,
           "y1": 0.19630484988452657
      },
      {
-          "name": "HONOR V9",
+          "marketingName": "HONOR V9",
+          "modelNames": [
+               "DUK-AL20",
+               "DUK-TL30"
+          ],
           "x0": 0.0,
           "y0": 0.0,
           "x1": 0.4530386740331491,
           "y1": 0.08735632183908046
      },
      {
-          "name": "HUAWEI Mate 10-Serie",
+          "marketingName": "HUAWEI Mate 10-Serie",
+          "modelNames": [
+               "ALP-AL00",
+               "ALP-L09",
+               "ALP-L29",
+               "ALP-TL00",
+               "BLA-A09",
+               "BLA-AL00",
+               "BLA-L09",
+               "BLA-L29",
+               "BLA-TL00",
+               "RNE-L01",
+               "RNE-L03",
+               "RNE-L21",
+               "RNE-L23"
+          ],
           "x0": 0.1701030927835051,
           "y0": 0.0,
           "x1": 0.7731958762886598,
           "y1": 0.12413793103448276
      },
      {
-          "name": "HUAWEI Mate 20-Serie",
+          "marketingName": "HUAWEI Mate 20-Serie",
+          "modelNames": [
+               "HMA-L09",
+               "HMA-L29",
+               "LYA-L0C",
+               "LYA-L29",
+               "EVR-AN00",
+               "EVR-N29",
+               "SNE-LX1",
+               "EVR-L29",
+               "EVR-TL00",
+               "EVR-N29",
+               "EVR-AL00",
+               "HMA-AL00",
+               "HMA-L09",
+               "HMA-L29",
+               "HMA-TL00",
+               "LYA-AL00",
+               "LYA-AL10",
+               "LYA-L09",
+               "LYA-L29",
+               "LYA-TL00",
+               "LYA-AL00P",
+               "SNE-LX1",
+               "SNE-LX2",
+               "SNE-LX3"
+          ],
           "x0": 0.2328042328042328,
           "y0": 0.10161662817551963,
           "x1": 0.7671957671957672,
           "y1": 0.2678983833718245
      },
      {
-          "name": "HUAWEI Mate 30-Serie",
+          "marketingName": "HUAWEI Mate 30-Serie",
+          "modelNames": [],
           "x0": 0.12903225806451613,
           "y0": 0.020833333333333332,
           "x1": 0.8333333333333334,
           "y1": 0.3055555555555556
      },
      {
-          "name": "HUAWEI Mate 40-Serie",
+          "marketingName": "HUAWEI Mate 40-Serie",
+          "modelNames": [],
           "x0": 0.08860759493670889,
           "y0": 0.012587412587412588,
           "x1": 0.9113924050632911,
           "y1": 0.35664335664335667
      },
      {
-          "name": "HUAWEI Mate 9-Serie",
+          "marketingName": "HUAWEI Mate 9-Serie",
+          "modelNames": [
+               "BLL-L23",
+               "HUAWEI BLL-L23",
+               "MHA-AL00",
+               "MHA-L09",
+               "MHA-L29",
+               "MHA-TL00",
+               "LON-AL00",
+               "LON-L29"
+          ],
           "x0": 0.17431192660550454,
           "y0": 0.0022935779816513763,
           "x1": 0.8027522935779816,
           "y1": 0.06422018348623854
      },
      {
-          "name": "HUAWEI Mate RS",
+          "marketingName": "HUAWEI Mate RS",
+          "modelNames": [
+               "NEO-AL00",
+               "NEO-L29"
+          ],
           "x0": 0.13440860215053763,
           "y0": 0.02947845804988662,
           "x1": 0.8763440860215054,
           "y1": 0.1836734693877551
      },
      {
-          "name": "HUAWEI Mate X-Serie",
+          "marketingName": "HUAWEI Mate X-Serie",
+          "modelNames": [],
           "x0": 0.023400936037441533,
           "y0": 0.0,
           "x1": 0.37597503900156004,
           "y1": 0.04741980474198047
      },
      {
-          "name": "HUAWEI nova 2s",
+          "marketingName": "HUAWEI nova 2s",
+          "modelNames": [
+               "HWI-AL00",
+               "HWI-TL00"
+          ],
           "x0": 0.07106598984771573,
           "y0": 0.0022988505747126436,
           "x1": 0.5076142131979695,
           "y1": 0.12413793103448276
      },
      {
-          "name": "HUAWEI nova 3-Serie",
+          "marketingName": "HUAWEI nova 3-Serie",
+          "modelNames": [
+               "INE-LX1",
+               "INE-LX2r",
+               "PAR-AL00",
+               "PAR-L21",
+               "PAR-L29",
+               "PAR-LX1",
+               "PAR-LX1M",
+               "PAR-LX9",
+               "PAR-TL00",
+               "PAR-TL20",
+               "ANE-AL00",
+               "ANE-TL00",
+               "INE-AL00",
+               "INE-LX1",
+               "INE-LX1r",
+               "INE-LX2",
+               "INE-TL00"
+          ],
           "x0": 0.0,
           "y0": 0.0,
           "x1": 0.7679558011049724,
           "y1": 0.0979020979020979
      },
      {
-          "name": "HUAWEI P10-Serie",
+          "marketingName": "HUAWEI P10-Serie",
+          "modelNames": [
+               "VTR-AL00",
+               "VTR-L09",
+               "VTR-L29",
+               "VTR-TL00",
+               "VKY-AL00",
+               "VKY-L09",
+               "VKY-L29",
+               "VKY-TL00",
+               "WAS-L03T",
+               "WAS-LX1",
+               "WAS-LX1A",
+               "WAS-LX2",
+               "WAS-LX2J",
+               "WAS-LX3"
+          ],
           "x0": 0.1707317073170732,
           "y0": 0.0,
           "x1": 0.5951219512195122,
           "y1": 0.07209302325581396
      },
      {
-          "name": "HUAWEI P20-Serie",
+          "marketingName": "HUAWEI P20-Serie",
+          "modelNames": [
+               "ANE-LX2J",
+               "HWV32",
+               "EML-AL00",
+               "EML-L09",
+               "EML-L29",
+               "EML-TL00",
+               "HW-01K",
+               "CLT-AL00",
+               "CLT-AL00l",
+               "CLT-AL01",
+               "CLT-L04",
+               "CLT-L09",
+               "CLT-L29",
+               "CLT-TL00",
+               "CLT-TL01",
+               "ANE-LX1",
+               "ANE-LX2",
+               "ANE-LX3",
+               "CLT-L09",
+               "CLT-L29"
+          ],
           "x0": 0.0871794871794872,
           "y0": 0.02546296296296296,
           "x1": 0.7128205128205128,
           "y1": 0.2708333333333333
      },
      {
-          "name": "HUAWEI P30-Serie",
+          "marketingName": "HUAWEI P30-Serie",
+          "modelNames": [
+               "ELE-AL00",
+               "ELE-L04",
+               "ELE-L09",
+               "ELE-L14",
+               "ELE-L29",
+               "ELE-L39",
+               "ELE-L49",
+               "ELE-TL00",
+               "HWV33",
+               "MAR-LX1A",
+               "MAR-LX1Am",
+               "MAR-LX1B",
+               "MAR-LX1M",
+               "MAR-LX1Mm",
+               "MAR-LX2",
+               "MAR-LX2B",
+               "MAR-LX2m",
+               "MAR-LX3A",
+               "MAR-LX3Am",
+               "MAR-LX3Bm",
+               "ELE-L09",
+               "HW-02L",
+               "VOG-AL00",
+               "VOG-AL10",
+               "VOG-L04",
+               "VOG-L09",
+               "VOG-L29",
+               "VOG-TL00",
+               "MAR-LX2J"
+          ],
           "x0": 0.07853403141361259,
           "y0": 0.020737327188940093,
           "x1": 0.6073298429319371,
           "y1": 0.2557603686635945
      },
      {
-          "name": "HUAWEI P40-Serie",
+          "marketingName": "HUAWEI P40-Serie",
+          "modelNames": [],
           "x0": 0.032573289902280145,
           "y0": 0.04495912806539509,
           "x1": 0.501628664495114,

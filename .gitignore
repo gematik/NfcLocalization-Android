@@ -8,3 +8,12 @@
 /captures
 .externalNativeBuild
 .cxx
+
+
+
+/google/phones/
+/huawei/phones/
+/motorola/phones/
+/samsung/phones/
+
+GitHubPublish.Jenkinsfile
