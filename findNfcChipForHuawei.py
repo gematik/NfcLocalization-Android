@@ -1,6 +1,6 @@
 """
 /*
- * Copyright (c) 2022 gematik GmbH
+ * Copyright (c) 2023 gematik GmbH
  * 
  * Licensed under the EUPL, Version 1.2 or – as soon they will be approved by
  * the European Commission - subsequent versions of the EUPL (the Licence);
@@ -134,7 +134,7 @@ class FindNfcChipForHuawei:
 
     @staticmethod
     def main():
-        FindNfcChipForHuawei._load_all_new_phone_images('https://consumer.huawei.com/ch/support/huaweishare/specs/', 'huawei/phones/', 'nfcChipsOutput/', 'nfcChipsHuawei.json')
+        FindNfcChipForHuawei._load_all_new_phone_images('https://consumer.huawei.com/ch/support/huaweishare/specs/', 'huawei/phones/', 'nfcChipsOutput/', 'nfc_positions.json')
         images, filenames = base.load_all_images_of_folder('huawei/phones/')
         google_device_list = base.load_google_play_device_list()
         nfc_chip_locations = []
@@ -144,12 +144,11 @@ class FindNfcChipForHuawei:
             if x0_edge != -1 & x0_nfc != -1:
                 x0, y0, x1, y1 = base.nfc_chip_coordinates_in_percent(x0_nfc, y0_nfc, x1_nfc, y1_nfc, x0_edge, y0_edge,
                                                                       x1_edge, y1_edge)
-                nfc_chip_locations.append( base.format_coordinates(filename,
+                nfc_chip_locations.append( base.format_coordinates("Huawei", filename,
                                                                    FindNfcChipForHuawei._get_model_names_of_device_list(
                                                                        google_device_list, filename), x0, y0, x1, y1))
             else:
                 print("Missing or wrong parameter to find the right coordinates for: " + filename)
 
-        base.write_to_json_file(nfc_chip_locations, 'nfcChipsOutput/', 'nfcChipsHuawei.json')
         base.write_to_json_file(nfc_chip_locations, 'nfcChipsOutput/', 'nfc_positions.json')
         base.delete_all_files_in_folder('huawei/phones/')

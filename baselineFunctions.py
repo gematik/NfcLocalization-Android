@@ -1,6 +1,6 @@
 """
 /*
- * Copyright (c) 2022 gematik GmbH
+ * Copyright (c) 2023 gematik GmbH
  * 
  * Licensed under the EUPL, Version 1.2 or – as soon they will be approved by
  * the European Commission - subsequent versions of the EUPL (the Licence);
@@ -103,15 +103,18 @@ class BaselineFunctions:
             return x
 
     @staticmethod
-    def format_coordinates(name, model_names, x0, y0, x1, y1):
+    def format_coordinates(manufacturer, name, model_names, x0, y0, x1, y1):
         name = name.split(".")[0]
         nfc_chip_location = {
+            "manufacturer": manufacturer,
             "marketingName": name,
             "modelNames": model_names,
-            "x0": x0,
-            "y0": y0,
-            "x1": x1,
-            "y1": y1
+            "nfcPos": {
+                "x0": x0,
+                "y0": y0,
+                "x1": x1,
+                "y1": y1
+            }
         }
         return nfc_chip_location
 

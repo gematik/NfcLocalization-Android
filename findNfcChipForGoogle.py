@@ -1,6 +1,6 @@
 """
 /*
- * Copyright (c) 2022 gematik GmbH
+ * Copyright (c) 2023 gematik GmbH
  * 
  * Licensed under the EUPL, Version 1.2 or – as soon they will be approved by
  * the European Commission - subsequent versions of the EUPL (the Licence);
@@ -218,7 +218,7 @@ class FindNfcChipForGoogle:
     def main():
         nfc_feature_numbers, marketing_names = FindNfcChipForGoogle._load_all_new_phone_images(
             'https://support.google.com/pixelphone/answer/7157629?hl=de#zippy&zippy=', 'google/phones/',
-            'nfcChipsOutput/', 'nfcChipsGoogle.json')
+            'nfcChipsOutput/', 'nfc_positions.json')
         images, file_names = base.load_all_images_of_folder('google/phones/')
         google_device_list = base.load_google_play_device_list()
         nfc_chip_locations = []
@@ -232,14 +232,13 @@ class FindNfcChipForGoogle:
                 x0, y0, x1, y1 = base.nfc_chip_coordinates_in_percent(x0_nfc, y0_nfc, x1_nfc, y1_nfc, x0_edge, y0_edge,
                                                                       x1_edge, y1_edge)
                 nfc_chip_locations.append(
-                    base.format_coordinates(file_name,
+                    base.format_coordinates("Google", file_name,
                                             FindNfcChipForGoogle._get_model_names_of_device_list(google_device_list,
                                                                                                  file_name),
                                             x0, y0, x1, y1))
             else:
                 print("Missing or Wrong Parameter to find the right Coordinates for: " + file_name)
 
-        base.write_to_json_file(nfc_chip_locations, 'nfcChipsOutput/', 'nfcChipsGoogle.json')
         base.write_to_json_file(nfc_chip_locations, 'nfcChipsOutput/', 'nfc_positions.json')
         base.delete_all_files_in_folder("google/phones/")
 
