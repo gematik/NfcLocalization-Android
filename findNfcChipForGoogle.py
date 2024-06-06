@@ -187,7 +187,7 @@ class FindNfcChipForGoogle:
                         result[2] >= 0.8):  # found the right Number with 80% plausibility
                     number_locations.append(result)
 
-        if number_locations is not None:
+        if number_locations is not None and len(number_locations) > 0:
             sorted(number_locations, key=lambda x: x[2], reverse=True)  # highest plausibility at pos[0]
             x0 = int(number_locations[0][0][0][0] / 4)
             y0 = int(number_locations[0][0][0][1] / 4)
