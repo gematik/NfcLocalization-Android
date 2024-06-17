@@ -3,6 +3,8 @@
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Run Code](#run-code)
+5. [Contributing / Security Policy](#contributing--security-policy)
+6. [License](#license)
 
 ### General Info
 ***
@@ -50,4 +52,18 @@ A description of how to run the Code:
                 "pip uninstall opencv-python -y"
                 "pip install opencv-python --upgrade"
 
+## Contributing / Security Policy
 
+Since this software is not a productive version, please submit an issue or pull request for any bugs or vulnerabilities you find.
+
+In case of a responsible disclosure, please follow instructions on https://www.gematik.de/datensicherheit#c1227.
+
+## License
+
+Copyright 2024 gematik GmbH
+
+The NfcLocalization-Android is licensed under the European Union Public Licence (EUPL); every use of the NfcLocalization-Android Sourcecode must be in compliance with the EUPL.
+
+You will find more details about the EUPL here: https://joinup.ec.europa.eu/collection/eupl
+
+Unless required by applicable law or agreed to in writing, software distributed under the EUPL is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the EUPL for the specific language governing permissions and limitations under the License.

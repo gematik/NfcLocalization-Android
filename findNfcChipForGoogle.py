@@ -1,20 +1,20 @@
 """
 /*
- * Copyright (c) 2023 gematik GmbH
- * 
+ * Copyright (c) 2024 gematik GmbH
+ *
  * Licensed under the EUPL, Version 1.2 or – as soon they will be approved by
  * the European Commission - subsequent versions of the EUPL (the Licence);
  * You may not use this work except in compliance with the Licence.
  * You may obtain a copy of the Licence at:
- * 
+ *
  *     https://joinup.ec.europa.eu/software/page/eupl
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the Licence is distributed on an "AS IS" basis,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the Licence for the specific language governing permissions and
  * limitations under the Licence.
- * 
+ *
  */
 """
 
@@ -40,7 +40,6 @@ class FindNfcChipForGoogle:
         model_names = content.findAll(class_='zippy')
         feature_lists = content.findAll('ol')
         images = content.findAll('img', class_='')
-        images.pop(0)  # first image is not a hardwarediagramm
 
         nfc_feature_numbers = []
         marketing_names = []
@@ -187,7 +186,7 @@ class FindNfcChipForGoogle:
                         result[2] >= 0.8):  # found the right Number with 80% plausibility
                     number_locations.append(result)
 
-        if number_locations is not None:
+        if number_locations is not None and len(number_locations) > 0:
             sorted(number_locations, key=lambda x: x[2], reverse=True)  # highest plausibility at pos[0]
             x0 = int(number_locations[0][0][0][0] / 4)
             y0 = int(number_locations[0][0][0][1] / 4)
