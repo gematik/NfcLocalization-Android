@@ -1463,188 +1463,6 @@
           }
      },
      {
-          "manufacturer": "Google",
-          "marketingName": "Pixel (2016)",
-          "modelNames": [
-               "Pixel"
-          ],
-          "nfcPos": {
-               "x0": 0.5182481751824817,
-               "y0": 0.0,
-               "x1": 0.6496350364963503,
-               "y1": 0.011673151750972763
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 2 (2017)",
-          "modelNames": [
-               "Pixel 2"
-          ],
-          "nfcPos": {
-               "x0": 0.33884297520661155,
-               "y0": 0.0622568093385214,
-               "x1": 0.487603305785124,
-               "y1": 0.13229571984435798
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 3 (2018)",
-          "modelNames": [
-               "Pixel 3"
-          ],
-          "nfcPos": {
-               "x0": 0.17098445595854928,
-               "y0": 0.12224938875305623,
-               "x1": 0.7305699481865284,
-               "y1": 0.3863080684596577
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 3a (2019)",
-          "modelNames": [
-               "Pixel 3a"
-          ],
-          "nfcPos": {
-               "x0": 0.2195121951219512,
-               "y0": 0.14788732394366197,
-               "x1": 0.7463414634146341,
-               "y1": 0.4014084507042254
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 4 (2019)",
-          "modelNames": [
-               "Pixel 4"
-          ],
-          "nfcPos": {
-               "x0": 0.10188679245283017,
-               "y0": 0.15845070422535212,
-               "x1": 0.41132075471698115,
-               "y1": 0.3028169014084507
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 4a (2020)",
-          "modelNames": [
-               "Pixel 4a"
-          ],
-          "nfcPos": {
-               "x0": 0.4957983193277311,
-               "y0": 0.39096267190569745,
-               "x1": 0.6428571428571428,
-               "y1": 0.45972495088408644
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 4a (5G)",
-          "modelNames": [
-               "Pixel 4a (5G)"
-          ],
-          "nfcPos": {
-               "x0": 0.44339622641509435,
-               "y0": 0.3858093126385809,
-               "x1": 0.5849056603773585,
-               "y1": 0.4523281596452328
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 5",
-          "modelNames": [
-               "Pixel 5"
-          ],
-          "nfcPos": {
-               "x0": 0.4416243654822335,
-               "y0": 0.34988179669030733,
-               "x1": 0.5939086294416244,
-               "y1": 0.42080378250591016
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 5a (5G)",
-          "modelNames": [
-               "Pixel 5a"
-          ],
-          "nfcPos": {
-               "x0": 0.44339622641509435,
-               "y0": 0.3858093126385809,
-               "x1": 0.5849056603773585,
-               "y1": 0.4523281596452328
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 6 Pro",
-          "modelNames": [
-               "Pixel 6 Pro"
-          ],
-          "nfcPos": {
-               "x0": 0.43434343434343436,
-               "y0": 0.5373831775700935,
-               "x1": 0.5808080808080809,
-               "y1": 0.6051401869158879
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 6",
-          "modelNames": [
-               "Pixel 6"
-          ],
-          "nfcPos": {
-               "x0": 0.45744680851063835,
-               "y0": 0.4737903225806452,
-               "x1": 0.6117021276595744,
-               "y1": 0.532258064516129
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 6a",
-          "modelNames": [
-               "Pixel 6a"
-          ],
-          "nfcPos": {
-               "x0": 0.45789473684210524,
-               "y0": 0.4778225806451613,
-               "x1": 0.6105263157894737,
-               "y1": 0.5362903225806451
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 7 Pro",
-          "modelNames": [
-               "Pixel 7 Pro"
-          ],
-          "nfcPos": {
-               "x0": 0.4097222222222222,
-               "y0": 0.2602291325695581,
-               "x1": 0.5902777777777778,
-               "y1": 0.3453355155482815
-          }
-     },
-     {
-          "manufacturer": "Google",
-          "marketingName": "Pixel 7",
-          "modelNames": [
-               "Pixel 7"
-          ],
-          "nfcPos": {
-               "x0": 0.40909090909090906,
-               "y0": 0.26143790849673204,
-               "x1": 0.6,
-               "y1": 0.35294117647058826
-          }
-     },
-     {
           "manufacturer": "Samsung",
           "marketingName": "Samsung Galaxy A34 5G",
           "modelNames": [
@@ -2081,6 +1899,340 @@
           }
      },
      {
+          "manufacturer": "Samsung",
+          "marketingName": "Samsung Galaxy S25",
+          "modelNames": [
+               "SC-51F",
+               "SCG31",
+               "SM-S9310",
+               "SM-S931B",
+               "SM-S931N",
+               "SM-S931Q",
+               "SM-S931U",
+               "SM-S931U1",
+               "SM-S931W",
+               "SM-S931Z"
+          ],
+          "nfcPos": {
+               "x0": 0.06932773109243695,
+               "y0": 0.15015015015015015,
+               "x1": 0.6785714285714286,
+               "y1": 0.4014014014014014
+          }
+     },
+     {
+          "manufacturer": "Samsung",
+          "marketingName": "Samsung Galaxy S25+",
+          "modelNames": [
+               "SM-S9360",
+               "SM-S936B",
+               "SM-S936N",
+               "SM-S936U",
+               "SM-S936U1",
+               "SM-S936W"
+          ],
+          "nfcPos": {
+               "x0": 0.0703125,
+               "y0": 0.15784671532846714,
+               "x1": 0.6875,
+               "y1": 0.4005474452554745
+          }
+     },
+     {
+          "manufacturer": "Samsung",
+          "marketingName": "Samsung Galaxy S25 Ultra",
+          "modelNames": [
+               "SC-52F",
+               "SCG32",
+               "SM-S9380",
+               "SM-S938B",
+               "SM-S938N",
+               "SM-S938Q",
+               "SM-S938U",
+               "SM-S938U1",
+               "SM-S938W",
+               "SM-S938Z"
+          ],
+          "nfcPos": {
+               "x0": 0.07721280602636538,
+               "y0": 0.16106194690265488,
+               "x1": 0.6967984934086628,
+               "y1": 0.42389380530973453
+          }
+     },
+     {
+          "manufacturer": "Samsung",
+          "marketingName": "Samsung Galaxy A56 5G",
+          "modelNames": [
+               "SM-A5660",
+               "SM-A566B",
+               "SM-A566E",
+               "SM-A566U1",
+               "SM-A566W"
+          ],
+          "nfcPos": {
+               "x0": 0.06887052341597799,
+               "y0": 0.02890932982917214,
+               "x1": 0.6639118457300275,
+               "y1": 0.31537450722733246
+          }
+     },
+     {
+          "manufacturer": "Samsung",
+          "marketingName": "Samsung Galaxy S25 Edge",
+          "modelNames": [
+               "SM-S9370",
+               "SM-S937B",
+               "SM-S937N",
+               "SM-S937U",
+               "SM-S937U1",
+               "SM-S937W"
+          ],
+          "nfcPos": {
+               "x0": 0.022508038585209,
+               "y0": 0.05279034690799397,
+               "x1": 0.6237942122186495,
+               "y1": 0.3559577677224736
+          }
+     },
+     {
+          "manufacturer": "Samsung",
+          "marketingName": "Samsung Galaxy S24 FE",
+          "modelNames": [
+               "SCG30",
+               "SM-S7210",
+               "SM-S721B",
+               "SM-S721N",
+               "SM-S721Q",
+               "SM-S721U",
+               "SM-S721U1",
+               "SM-S721W"
+          ],
+          "nfcPos": {
+               "x0": 0.06164383561643838,
+               "y0": 0.053691275167785234,
+               "x1": 0.589041095890411,
+               "y1": 0.2751677852348993
+          }
+     },
+     {
+          "manufacturer": "Samsung",
+          "marketingName": "Samsung Galaxy A36 5G",
+          "modelNames": [
+               "SC-54F",
+               "SM-A3660",
+               "SM-A366B",
+               "SM-A366E",
+               "SM-A366N",
+               "SM-A366Q",
+               "SM-A366U",
+               "SM-A366U1",
+               "SM-A366W",
+               "SM-S366V"
+          ],
+          "nfcPos": {
+               "x0": 0.07397260273972606,
+               "y0": 0.03795811518324607,
+               "x1": 0.6493150684931507,
+               "y1": 0.2879581151832461
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 9a",
+          "modelNames": [
+               "Pixel 9a"
+          ],
+          "nfcPos": {
+               "x0": 0.0,
+               "y0": 0.35655737704918034,
+               "x1": 0.0,
+               "y1": 0.42008196721311475
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel (2016)",
+          "modelNames": [
+               "Pixel"
+          ],
+          "nfcPos": {
+               "x0": 0.5182481751824817,
+               "y0": 0.0,
+               "x1": 0.6496350364963503,
+               "y1": 0.011673151750972763
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 2 (2017)",
+          "modelNames": [
+               "Pixel 2"
+          ],
+          "nfcPos": {
+               "x0": 0.33884297520661155,
+               "y0": 0.0622568093385214,
+               "x1": 0.487603305785124,
+               "y1": 0.13229571984435798
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 3 (2018)",
+          "modelNames": [
+               "Pixel 3"
+          ],
+          "nfcPos": {
+               "x0": 0.17098445595854928,
+               "y0": 0.12224938875305623,
+               "x1": 0.7305699481865284,
+               "y1": 0.3863080684596577
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 3a (2019)",
+          "modelNames": [
+               "Pixel 3a"
+          ],
+          "nfcPos": {
+               "x0": 0.2195121951219512,
+               "y0": 0.14788732394366197,
+               "x1": 0.7463414634146341,
+               "y1": 0.4014084507042254
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 4 (2019)",
+          "modelNames": [
+               "Pixel 4"
+          ],
+          "nfcPos": {
+               "x0": 0.10188679245283017,
+               "y0": 0.15845070422535212,
+               "x1": 0.41132075471698115,
+               "y1": 0.3028169014084507
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 4a (2020)",
+          "modelNames": [
+               "Pixel 4a"
+          ],
+          "nfcPos": {
+               "x0": 0.4957983193277311,
+               "y0": 0.39096267190569745,
+               "x1": 0.6428571428571428,
+               "y1": 0.45972495088408644
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 4a (5G)",
+          "modelNames": [
+               "Pixel 4a (5G)"
+          ],
+          "nfcPos": {
+               "x0": 0.44339622641509435,
+               "y0": 0.3858093126385809,
+               "x1": 0.5849056603773585,
+               "y1": 0.4523281596452328
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 5",
+          "modelNames": [
+               "Pixel 5"
+          ],
+          "nfcPos": {
+               "x0": 0.4416243654822335,
+               "y0": 0.34988179669030733,
+               "x1": 0.5939086294416244,
+               "y1": 0.42080378250591016
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 5a (5G)",
+          "modelNames": [
+               "Pixel 5a"
+          ],
+          "nfcPos": {
+               "x0": 0.44339622641509435,
+               "y0": 0.3858093126385809,
+               "x1": 0.5849056603773585,
+               "y1": 0.4523281596452328
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 6 Pro",
+          "modelNames": [
+               "Pixel 6 Pro"
+          ],
+          "nfcPos": {
+               "x0": 0.43434343434343436,
+               "y0": 0.5373831775700935,
+               "x1": 0.5808080808080809,
+               "y1": 0.6051401869158879
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 6",
+          "modelNames": [
+               "Pixel 6"
+          ],
+          "nfcPos": {
+               "x0": 0.45744680851063835,
+               "y0": 0.4737903225806452,
+               "x1": 0.6117021276595744,
+               "y1": 0.532258064516129
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 6a",
+          "modelNames": [
+               "Pixel 6a"
+          ],
+          "nfcPos": {
+               "x0": 0.45789473684210524,
+               "y0": 0.4778225806451613,
+               "x1": 0.6105263157894737,
+               "y1": 0.5362903225806451
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 7 Pro",
+          "modelNames": [
+               "Pixel 7 Pro"
+          ],
+          "nfcPos": {
+               "x0": 0.4097222222222222,
+               "y0": 0.2602291325695581,
+               "x1": 0.5902777777777778,
+               "y1": 0.3453355155482815
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 7",
+          "modelNames": [
+               "Pixel 7"
+          ],
+          "nfcPos": {
+               "x0": 0.40909090909090906,
+               "y0": 0.26143790849673204,
+               "x1": 0.6,
+               "y1": 0.35294117647058826
+          }
+     },
+     {
           "manufacturer": "Google",
           "marketingName": "Pixel 7a",
           "modelNames": [
@@ -2091,6 +2243,19 @@
                "y0": 0.3403141361256545,
                "x1": 0.5667870036101084,
                "y1": 0.40663176265270506
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel Fold",
+          "modelNames": [
+               "Pixel Fold"
+          ],
+          "nfcPos": {
+               "x0": 0.41233766233766234,
+               "y0": 0.26242236024844723,
+               "x1": 0.5974025974025974,
+               "y1": 0.35093167701863354
           }
      },
      {
@@ -2130,6 +2295,97 @@
                "y0": 0.3325526932084309,
                "x1": 0.5769230769230769,
                "y1": 0.4028103044496487
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 10 Pro Fold",
+          "modelNames": [
+               "Pixel 10 Pro Fold"
+          ],
+          "nfcPos": {
+               "x0": 0.4296028880866426,
+               "y0": 0.3403141361256545,
+               "x1": 0.5667870036101084,
+               "y1": 0.40663176265270506
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 9",
+          "modelNames": [
+               "Pixel 9"
+          ],
+          "nfcPos": {
+               "x0": 0.45,
+               "y0": 0.2611764705882353,
+               "x1": 0.55,
+               "y1": 0.3552941176470588
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 9 Pro XL",
+          "modelNames": [
+               "Pixel 9 Pro XL"
+          ],
+          "nfcPos": {
+               "x0": 0.5,
+               "y0": 0.24557522123893805,
+               "x1": 0.5,
+               "y1": 0.334070796460177
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 9 Pro Fold",
+          "modelNames": [
+               "Pixel 9 Pro Fold"
+          ],
+          "nfcPos": {
+               "x0": 0.42268170426065168,
+               "y0": 0.26066350710900477,
+               "x1": 0.5864661654135339,
+               "y1": 0.3567961165048544
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 10 Pro",
+          "modelNames": [
+               "Pixel 10 Pro"
+          ],
+          "nfcPos": {
+               "x0": 0.4296028880866426,
+               "y0": 0.3403141361256545,
+               "x1": 0.5667870036101084,
+               "y1": 0.40663176265270506
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 9 Pro",
+          "modelNames": [
+               "Pixel 9 Pro"
+          ],
+          "nfcPos": {
+               "x0": 0.5,
+               "y0": 0.26066350710900477,
+               "x1": 0.5,
+               "y1": 0.35545023696682465
+          }
+     },
+     {
+          "manufacturer": "Google",
+          "marketingName": "Pixel 10 Pro XL",
+          "modelNames": [
+               "Pixel 10 Pro XL"
+          ],
+          "nfcPos": {
+               "x0": 0.4296028880866426,
+               "y0": 0.3403141361256545,
+               "x1": 0.5667870036101084,
+               "y1": 0.40663176265270506
           }
      }
 ]
